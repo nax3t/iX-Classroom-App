@@ -4,11 +4,12 @@ class ClassroomsController < ApplicationController
   end
 
   def classmates
-  	@classmates = [
+  	students = [
   		"Bailey","Austin","Blake","Yunny","Olivia","Alex",
   		"Charlotte","Asad","Han","Kate","Oscar","Sophie","Zack","Matthew",
   		"Gloryah","Jack","Enrique","Ben","Stanley","Kaan","Dilys","Molly",
   		"Susana","Emily","Pavi","Daniel","Arya","Urvish"
   	]
+  	@classmates = students.sort
   end
 end
