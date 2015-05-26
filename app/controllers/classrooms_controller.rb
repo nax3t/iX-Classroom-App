@@ -12,4 +12,15 @@ class ClassroomsController < ApplicationController
   	]
   	@students = students.sort
   end
+
+  def random_student
+  	students = [
+  		"Bailey","Austin","Blake","Yunny","Olivia","Alex",
+  		"Charlotte","Asad","Han","Kate","Oscar","Sophie","Zack","Matthew",
+  		"Gloryah","Jack","Enrique","Ben","Stanley","Kaan","Dilys","Molly",
+  		"Susana","Emily","Pavi","Daniel","Arya","Urvish"
+  	]
+  	@students = students.sort
+  	@random_student = @students[rand(1..28)]
+  end
 end
