@@ -3,13 +3,13 @@ class ClassroomsController < ApplicationController
   	@welcome_message = "Welcome to my classroom app!"
   end
 
-  def classmates
+  def students
   	students = [
   		"Bailey","Austin","Blake","Yunny","Olivia","Alex",
   		"Charlotte","Asad","Han","Kate","Oscar","Sophie","Zack","Matthew",
   		"Gloryah","Jack","Enrique","Ben","Stanley","Kaan","Dilys","Molly",
   		"Susana","Emily","Pavi","Daniel","Arya","Urvish"
   	]
-  	@classmates = students.sort
+  	@students = students.sort
   end
 end

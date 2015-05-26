@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'classrooms/index'
 
-  get 'classrooms/classmates'
+  get 'classrooms/students'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
