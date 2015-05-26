@@ -1,0 +1,7 @@
+<h1>Students:</h1>
+<ul>
+	<% @classmates.each do |classmate| %>
+		<li><%= classmate %></li>
+	<% end %>
+</ul>
+<%= link_to '< Home', classrooms_index_path %>
