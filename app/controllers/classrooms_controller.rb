@@ -21,6 +21,6 @@ class ClassroomsController < ApplicationController
   		"Susana","Emily","Pavi","Daniel","Arya","Urvish"
   	]
   	@students = students.sort
-  	@random_student = @students[rand(1..28)]
+  	@random_student = @students[rand(0...28)]
   end
 end
