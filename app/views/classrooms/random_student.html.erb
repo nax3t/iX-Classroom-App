@@ -1,4 +1,5 @@
 <h4>Annndddd the randomly selected student isss...</h4>
 <h1><%= @random_student %></h1>
 <p><%= link_to 'Generate Another', classrooms_random_student_path(student: @random_student) %></p>
+<p><%= link_to 'Pick a random group', classrooms_random_group_path %></p>
 <p><%= link_to 'Home', root_path %> | <%= link_to 'Students List', classrooms_students_path %></p>

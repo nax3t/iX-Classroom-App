@@ -1,0 +1,13 @@
+<h4>Random Groups:</h4>
+	<% @groups.each do |group| %>
+	<ul class="groups">
+		<% group.each do |student| %>
+			<li><%= student %></li>
+		<% end %>
+	</ul>
+	<% end %>
+<div class="group_links">
+	<p><%= link_to 'Generate Another', classrooms_random_group_path %></p>
+	<p><%= link_to 'Home', root_path %> | <%= link_to 'Students List', classrooms_students_path %></p>
+</div>
+

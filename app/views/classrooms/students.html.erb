@@ -1,5 +1,6 @@
 <h1>Students:</h1>
 <h3><%= link_to 'Pick a random student', classrooms_random_student_path(student: @random_student) %></h3>
+<h4><%= link_to 'Pick a random group', classrooms_random_group_path %></h4>
 <ul>
 	<% @students.each do |classmate| %>
 		<li><%= classmate %></li>
