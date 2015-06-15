@@ -1,9 +1,9 @@
 class ClassroomsController < ApplicationController
-	STUDENTS = [
-		"Bailey","Austin","Blake","Yunny","Olivia","Alex",
-		"Charlotte","Asad","Han","Kate","Oscar","Sophie","Zack","Matthew",
-		"Gloryah","Jack","Enrique","Ben","Stanley","Kaan","Dilys","Molly",
-		"Susana","Emily","Pavi","Daniel","Arya","Urvish"
+	STUDENTS = 
+		"Amanda", "Rachel", "Robert K", "Daniel", "Robert L", "Julianne", "Rebecca",
+    "Melissa", "Chris", "Emily" , "Richard", "Jessie", "Isabel", "Tali", "Sarah",
+    "Sammy", "Annelie", "Leila", "Julian", "Alec", "Praise", "Tebogo",
+    "Josh", "Khangwelo", "Therveshan"
 	]
 
   def index
