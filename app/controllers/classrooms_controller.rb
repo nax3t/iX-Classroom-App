@@ -1,5 +1,5 @@
 class ClassroomsController < ApplicationController
-	STUDENTS = 
+	STUDENTS = [
 		"Amanda", "Rachel", "Robert K", "Daniel", "Robert L", "Julianne", "Rebecca",
     "Melissa", "Chris", "Emily" , "Richard", "Jessie", "Isabel", "Tali", "Sarah",
     "Sammy", "Annelie", "Leila", "Julian", "Alec", "Praise", "Tebogo",
