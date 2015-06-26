@@ -2,8 +2,8 @@ class ClassroomsController < ApplicationController
 	STUDENTS = [
 		"Amanda", "Rachel", "Robert K", "Daniel", "Robert L", "Julianne", "Rebecca",
     "Melissa", "Chris", "Emily" , "Richard", "Jessie", "Isabel", "Tali", "Sarah",
-    "Sammy", "Annelie", "Leila", "Julian", "Alec", "Praise", "Tebogo",
-    "Josh", "Khangwelo", "Therveshan"
+    "Sammy", "Annelie", "Leila", "Julian", "Alec", "Praise", "Tebogo", "Khangwelo",
+    "Therveshan"
 	]
 
   def index
@@ -21,6 +21,6 @@ class ClassroomsController < ApplicationController
   end
 
   def random_group
-    @groups = STUDENTS.shuffle.each_slice(4).to_a
+    @groups = STUDENTS.shuffle.each_slice(2).to_a
   end
 end
