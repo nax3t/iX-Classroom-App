@@ -1,15 +1,45 @@
 class ClassroomsController < ApplicationController
 	STUDENTS = [
-		"Amanda", "Rachel", "Robert K", "Daniel", "Robert L", "Julianne", "Rebecca",
-    "Melissa", "Chris", "Emily" , "Richard", "Jessie", "Isabel", "Tali", "Sarah",
-    "Sammy", "Annelie", "Leila", "Julian", "Alec", "Praise", "Tebogo",
-    "Josh", "Khangwelo", "Therveshan"
+		'Aleka',
+    'Andrew',
+    'Arthur',
+    'Aobo',
+    'Cameron',
+    'Christine',
+    'Eliott',
+    'Lucas',
+    'Maria',
+    'Menachem',
+    'Michael',
+    'Nadin',
+    'Norbert',
+    'Serena',
+    'Tim',
+    'Todd',
+    'Tyler',
+    'Vicki',
+    'Wick'
 	]
   GROUPS = [
-      "Amanda", "Rachel", "Robert K", "Daniel", "Robert L", "Julianne", "Rebecca",
-      "Melissa", "Chris", "Emily" , "Richard", "Jessie", "Isabel", "Tali", "Sarah",
-      "Sammy", "Annelie", "Leila", "Julian", "Alec", "Praise", "Tebogo", "Khangwelo",
-      "Therveshan"
+    'Aleka',
+    'Andrew',
+    'Arthur',
+    'Aobo',
+    'Cameron',
+    'Christine',
+    'Eliott',
+    'Lucas',
+    'Maria',
+    'Menachem',
+    'Michael',
+    'Nadin',
+    'Norbert',
+    'Serena',
+    'Tim',
+    'Todd',
+    'Tyler',
+    'Vicki',
+    'Wick'
     ]
 
   def index
