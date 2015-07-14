@@ -58,5 +58,7 @@ class ClassroomsController < ApplicationController
 
   def random_group
     @groups = GROUPS.shuffle.each_slice(2).to_a
+    @groups[8] << @groups.last[0]
+    @groups[9].pop
   end
 end
